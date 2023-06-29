@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Results</title>
+    <meta charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10">
+                <h2 class="text-capitalize">Test Results</h2>
+<!--                <p class='attribute'><strong>Test Environment: </strong>  </p>-->
+                <p class='attribute'><strong>Start Time: </strong>2023-06-22 17:16:19</p>
+                <p class='attribute'><strong>Author: J</strong></p>
+                <p class='attribute'><strong>Note: Testnote</strong> </p>
+                <p class='attribute'><strong>Duration: </strong>38.01 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 22, Pass: 20, Fail: 1, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>Tests.TestCases.CheckElements.testing</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_0001_이사로개발URL접속</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:60px;margin-top: 3px">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0001_이사로개발URL접속 (Tests.TestCases.CheckElements.testing.test_0001_이사로개발URL접속)</p> </strong><p style="color:maroon;white-space: pre-wrap;">AssertionError: 'https://24ro.co.kr/www-dev/' != 'https://24ro.co.kr/www-dev'
+- https://24ro.co.kr/www-dev/
+?                           -
++ https://24ro.co.kr/www-dev
+</p><p style="color:maroon;white-space: pre-wrap;">AssertionError: 'https://24ro.co.kr/www-dev/' != 'https://24ro.co.kr/www-dev'
+- https://24ro.co.kr/www-dev/
+?                           -
++ https://24ro.co.kr/www-dev
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0002_랜딩팝업요소체크</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0002_랜딩팝업요소체크 (Tests.TestCases.CheckElements.testing.test_0002_랜딩팝업요소체크)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_0003_좌우사이드요소체크</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:60px;margin-top: 3px">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0003_좌우사이드요소체크 (Tests.TestCases.CheckElements.testing.test_0003_좌우사이드요소체크)</p> </strong><p style="color:maroon;white-space: pre-wrap;">AttributeError: module 'Tests.Pages.AllElements' has no attribute 'Side_SecondTitle1'</p><p style="color:maroon;white-space: pre-wrap;">Traceback (most recent call last):
+  File "C:\Users\1\Desktop\24roWeb\Tests\TestCases\CheckElements.py", line 113, in test_0003_좌우사이드요소체크
+    Action.find(self, (By.CSS_SELECTOR, AllElements.Side_SecondTitle1))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'Tests.Pages.AllElements' has no attribute 'Side_SecondTitle1'
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0004_아이프레임진입</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0004_아이프레임진입 (Tests.TestCases.CheckElements.testing.test_0004_아이프레임진입)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0005_서비스신청_포장이사</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0005_서비스신청_포장이사 (Tests.TestCases.CheckElements.testing.test_0005_서비스신청_포장이사)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0006_서비스신청_포장이사_1단계</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0006_서비스신청_포장이사_1단계 (Tests.TestCases.CheckElements.testing.test_0006_서비스신청_포장이사_1단계)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0007_서비스신청_포장이사_2단계</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0007_서비스신청_포장이사_2단계 (Tests.TestCases.CheckElements.testing.test_0007_서비스신청_포장이사_2단계)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0008_서비스신청_2단계_출발지주소검색_아이프레임진입</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0008_서비스신청_2단계_출발지주소검색_아이프레임진입 (Tests.TestCases.CheckElements.testing.test_0008_서비스신청_2단계_출발지주소검색_아이프레임진입)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0009_서비스신청_2단계_카카오주소검색</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0009_서비스신청_2단계_카카오주소검색 (Tests.TestCases.CheckElements.testing.test_0009_서비스신청_2단계_카카오주소검색)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0010_서비스신청_2단계_아이프레임나가기</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0010_서비스신청_2단계_아이프레임나가기 (Tests.TestCases.CheckElements.testing.test_0010_서비스신청_2단계_아이프레임나가기)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0011_서비스신청_2단계_출발지</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0011_서비스신청_2단계_출발지 (Tests.TestCases.CheckElements.testing.test_0011_서비스신청_2단계_출발지)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0012_서비스신청_2단계_도착지주소검색_아이프레임진입</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0012_서비스신청_2단계_도착지주소검색_아이프레임진입 (Tests.TestCases.CheckElements.testing.test_0012_서비스신청_2단계_도착지주소검색_아이프레임진입)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0013_서비스신청_2단계_카카오주소검색</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0013_서비스신청_2단계_카카오주소검색 (Tests.TestCases.CheckElements.testing.test_0013_서비스신청_2단계_카카오주소검색)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0014_서비스신청_2단계_아이프레임나가기</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0014_서비스신청_2단계_아이프레임나가기 (Tests.TestCases.CheckElements.testing.test_0014_서비스신청_2단계_아이프레임나가기)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0015_서비스신청_2단계_도착지</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0015_서비스신청_2단계_도착지 (Tests.TestCases.CheckElements.testing.test_0015_서비스신청_2단계_도착지)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0016_서비스신청_3단계_사진가이드</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0016_서비스신청_3단계_사진가이드 (Tests.TestCases.CheckElements.testing.test_0016_서비스신청_3단계_사진가이드)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0017_서비스신청_3단계_구조선택</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0017_서비스신청_3단계_구조선택 (Tests.TestCases.CheckElements.testing.test_0017_서비스신청_3단계_구조선택)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0018_서비스신청_3단계_사진첨부</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0018_서비스신청_3단계_사진첨부 (Tests.TestCases.CheckElements.testing.test_0018_서비스신청_3단계_사진첨부)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0019_서비스신청_3단계_신청내용확인_스크롤</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0019_서비스신청_3단계_신청내용확인_스크롤 (Tests.TestCases.CheckElements.testing.test_0019_서비스신청_3단계_신청내용확인_스크롤)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0020_서비스신청_3단계_신청내용확인_마무리</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0020_서비스신청_3단계_신청내용확인_마무리 (Tests.TestCases.CheckElements.testing.test_0020_서비스신청_3단계_신청내용확인_마무리)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0021_서비스신청_인증하기</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0021_서비스신청_인증하기 (Tests.TestCases.CheckElements.testing.test_0021_서비스신청_인증하기)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_0022_견적신청접수완료_팝업</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:60px;margin-top: 3px">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3">
+                                <strong><p>Test Description: test_0022_견적신청접수완료_팝업 (Tests.TestCases.CheckElements.testing.test_0022_견적신청접수완료_팝업)</p> </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 22, Pass: 20, Fail: 1, Error: 1 -- Duration: 38.01 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html>
