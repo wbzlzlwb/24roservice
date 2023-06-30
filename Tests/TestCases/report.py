@@ -1,11 +1,11 @@
 #-*- coding: UTF-8 -*-
 import unittest
 import HtmlTestRunner
-from Tests.TestCases.CheckElements import testing
+from Tests.TestCases.CheckElements import Testing
 
 
 
-testcase = unittest.TestLoader().loadTestsFromTestCase(testing)
+testcase = unittest.TestLoader().loadTestsFromTestCase(Testing)
 
 
 testsuite = unittest.TestSuite([testcase])
